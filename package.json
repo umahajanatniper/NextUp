@@ -1,0 +1,18 @@
+{
+  "name": "academic-management-app",
+  "version": "1.0.0",
+  "description": "Full-stack academic management application",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && node src/server.js",
+    "dev": "cd backend && npm run dev",
+    "render-build": "cd frontend && npm install && npm run build && cd ../backend && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
